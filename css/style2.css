@@ -103,7 +103,7 @@ header {
     position: relative;
     width: 400px;
     height: 500px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .about-content h3{
