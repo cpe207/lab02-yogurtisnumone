@@ -37,7 +37,7 @@ header {
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     margin: 0 30px;
 }
@@ -78,4 +78,19 @@ header {
     border-radius: 50%;
     width: 551px;
     height: 643px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    background-color: #E7E6E2;
+}
+
+.about-img img{
+    position: relative;
+    width: 290px;
+    height: 386px;
+    border-radius: 50%;
 }
