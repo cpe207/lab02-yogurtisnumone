@@ -85,12 +85,25 @@ header {
     justify-content: center;
     align-items: center;
     padding: 12% 8%;
+    gap: 10em;
     background-color: #E7E6E2;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
 }
 
 .about-img img{
     position: relative;
-    width: 290px;
-    height: 386px;
+    width: 400px;
+    height: 500px;
     border-radius: 50%;
+}
+
+.about-content h3{
+    text-align: left;
+    font-size: 30px;
+}
+
+.about-content p{
+    font-size: 20px;
+    margin: 2em 0 3em;
 }
