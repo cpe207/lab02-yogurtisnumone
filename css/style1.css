@@ -62,11 +62,7 @@ header {
 
 .sayhi-content{
     max-width: 800px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-decoration: none;
-    color: #2E3190;
+    color: #000000;
     font-size: 20px;
 }
 
