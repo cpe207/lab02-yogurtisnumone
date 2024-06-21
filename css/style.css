@@ -5,7 +5,6 @@ header {
     position: fixed;
     padding: 15px 3%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 
 }
@@ -19,11 +18,11 @@ header {
 }
 .threehead {
     display: flex;
-    margin-right: 20px;
+    margin-left: 1200px;
 }
 
 .threehead li{
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 .threehead a{
@@ -33,8 +32,5 @@ header {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
-    transition: all .20s ease;
-}
-.threehead a:hover {
-  text-decoration: underline;
+    transition: all .6s ease;
 }
