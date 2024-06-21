@@ -3,10 +3,8 @@ body {
 }
 header {
     position: fixed;
-    padding: 15px 3%;
     display: flex;
     justify-content: space-between;
-
 }
 .maybelogo {
     font-family: "Kanit", sans-serif;
@@ -15,22 +13,20 @@ header {
     text-decoration: none;
     color: #ffffff;
     font-size: 25px;
+    top: 0;
+    left: 0;
+    padding: 35px 12%;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
 }
 .threehead {
     display: flex;
-    margin-left: 1200px;
+    list-style: none;
 }
 
-.threehead li{
-    margin-right: 50px;
-}
-
-.threehead a{
-    color: #ffffff;
-    font-size: 18px;
-    text-decoration: none;
+.threehead a {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
-    transition: all .6s ease;
 }
