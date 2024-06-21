@@ -1,0 +1,51 @@
+body {
+    background-color: #E7E6E2;
+    margin: 0;
+}
+header {
+    font-family: "Kanit", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-sizing: border-box;
+    background-color: #014AA6;
+}
+.maybelogo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+.threehead{
+    display: flex;
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.threehead a {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+.header-right {
+    margin-left: 1000px;
+}
+
+.threehead a:hover, .threehead a:active {
+    text-decoration: underline;
+}
