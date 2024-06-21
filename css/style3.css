@@ -1,7 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Kanit", sans-serif;
+}
+
 body {
     background-color: #E7E6E2;
     margin: 0;
+    width: 100%;
+    min-height: 100vh;
 }
+
+.ctm {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.contact-me h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #014AA6;
+    margin-bottom: 60px;
+    border-bottom: 3px solid #014AA6;
+
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 header {
     font-family: "Kanit", sans-serif;
     position: fixed;
@@ -17,6 +48,7 @@ header {
     box-sizing: border-box;
     background-color: #014AA6;
 }
+
 .maybelogo {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
@@ -25,10 +57,11 @@ header {
     color: #ffffff;
     font-size: 30px;
 }
-.threehead{
+
+.threehead {
     display: flex;
-    list-style: none; 
-    padding: 0; 
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 
@@ -43,9 +76,10 @@ header {
 }
 
 .header-right {
-    margin-left: 1000px;
+    margin-left: auto; 
 }
 
-.threehead a:hover, .threehead a:active {
+.threehead a:hover,
+.threehead a:active {
     text-decoration: underline;
 }
