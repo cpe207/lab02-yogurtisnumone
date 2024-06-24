@@ -54,6 +54,7 @@ header {
 .sayhi{
     width: 100%;
     min-height: 100vh;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     gap: 7em;
